@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de APIs - Cotação de moedas</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-1 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="font-weight: 600; color: #fff"><img src="img/logo.png" alt="" style="width: 170px; max-height: 100px; margin-top: 2.4px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 600; color: #fff">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="clima.html" style="font-weight: 600; color: #fff">Climatempo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="moedas.html" style="font-weight: 600; color: #fff">Cotação de moedas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="chat.html" style="font-weight: 600; color: #fff">ChatBot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="documentacaomoeda.html" style="font-weight: 600; color: #fff">Documentação Economia API</a>
+              </li>
+            </ul>
+            <a href="login.html"><button class="btn btn-outline-light">Fazer login</button></a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row mt-5">
+                <h4>Como utilizar a API de cotação de moedas (Awesome API)</h4>
+                <span>Nesta página iremos ensinar a utilizar a Awesome API para o consumo de dados de cotação de moedas em tempo real.</span>
+            </div>
+            <div class="row mt-5">
+                <span style="font-weight: 600;">1. Criação de variáveis</span>
+                <span>Criamos variáveis para armazenar elementos HTML que serão referenciados no decorrer do código;</span>
+                <pre class="p-3 mt-3" style="background-color: #d3d3d3; width: 600px;"><code>const confdol = document.getElementById('confdol');
+                    const confeur = document.getElementById('confeur');
+                    const confbtc = document.getElementById('confbtc');</code></pre>
+            </div>
+
+            <div class="row mt-5">
+                <span style="font-weight: 600;">2. Consumo da API</span>
+                <span>No exemplo, utilizaremos a puxada da cotação do dólar; Inicialmente, armazenamos a URL da API e passamos os parâmetros das moedas que podem ser utilizadas. Após, com o medo fetch, tornamos o rresultado em JSON
+                    e criamos uma função que armazena os dados resultados, e os adiciona a elementos HTML, para apresentação ao usuário.
+                </span>
+                <pre class="p-3 mt-3" style="background-color: #d3d3d3; width: 100%;"><code>function dolar(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    
+                fetch(url + coins)
+                .then(function(response){
+                    return response.json()
+                })
+                    .then(function(data){
+                        const dolarReal = data.USDBRL;
+                        const euroReal = data.EURBRL;
+                        const btcReal = data.BTCBRL;
+        
+                    
+        
+                        let estaData = new Date(dolarReal.create_date);
+                        
+                        document.getElementById('title').innerHTML = dolarReal.name;
+                        document.getElementById('thisdate').innerHTML = 'Data da consulta: ' + estaData.toLocaleString();
+                        document.getElementById('maxvalue').innerHTML = 'Valor máximo: ' + parseFloat(dolarReal.high).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('minvalue').innerHTML = 'Valor mínimo: ' + parseFloat(dolarReal.low).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('conversaodol').style.display = "block";
+                        document.getElementById('conversaoeur').style.display = "none";
+                        document.getElementById('conversaobtc').style.display = "none";
+                    })
+                }</code></pre>
+            </div>
+
+            <div class="row mt-5 mb-5">
+                <span style="font-weight: 600;">3. Cálculo de valores</span>
+                <span>Através do mesmo sistema de fetch API do código anterior, criamos a função que calcula diferentes quantidades de moeda. Seguindo o exemplo do dólar, recebemos o valor digitado pelo usuário e o multiplicamos pelo valor da moeda desejada em seu momento de alta.</span>
+                <pre class="p-3 mt-3 language-html" style="background-color: #d3d3d3; width: 900px;"><code class="language-html">function calculaDolar(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    let val = document.getElementById('convertdol').value;
+                    
+                    fetch(url + coins)
+                    .then(function(response){
+                        return response.json()
+                    })
+                        .then(function(data){
+                            const dolarReal = data.USDBRL;
+                            
+                            document.getElementById('resultadodol').innerHTML = (dolarReal.high) * val;
+        
+                        })
+                }
+        
+                confdol.addEventListener("click", () => {
+        
+                calculaDolar();
+        
+                });</code></pre>
+            </div>
+
+            <div class="row mt-5 mb-5">
+                <span style="font-weight: 600;">4. Diferentes moedas</span>
+                <span>Utilizando os métodos apresentados para o consumo de informações sobre o euro e o bitcoin.</span>
+                <pre class="p-3 mt-3 language-html" style="background-color: #d3d3d3; width: 100%;"><code class="language-html"><-- Abaixo, a receptação das informações do euro -->
+
+                function euro(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    
+                fetch(url + coins)
+                .then(function(response){
+                    return response.json()
+                })
+                    .then(function(data){
+                        const dolarReal = data.USDBRL;
+                        const euroReal = data.EURBRL;
+                        const btcReal = data.BTCBRL;
+        
+                    
+        
+                        let estaData = new Date(euroReal.create_date);
+                        
+                        document.getElementById('title').innerHTML = euroReal.name;
+                        document.getElementById('thisdate').innerHTML = 'Data da consulta: ' + estaData.toLocaleString();
+                        document.getElementById('maxvalue').innerHTML = 'Valor máximo: ' + parseFloat(euroReal.high).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('minvalue').innerHTML = 'Valor mínimo: ' + parseFloat(euroReal.low).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('conversaodol').style.display = "none";
+                        document.getElementById('conversaoeur').style.display = "block";
+                        document.getElementById('conversaobtc').style.display = "none";
+                    })
+                }
+
+
+
+                <-- Abaixo, o cálculo de valores -->
+        
+                function calculaEuro(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    let val = document.getElementById('converteur').value;
+                    
+                    fetch(url + coins)
+                    .then(function(response){
+                        return response.json()
+                    })
+                        .then(function(data){
+                            const euroReal = data.EURBRL;
+                            
+                            document.getElementById('resultadoeur').innerHTML = (euroReal.high) * val;
+        
+                        })
+                }
+        
+                confeur.addEventListener("click", () => {
+        
+                calculaEuro();
+        
+                });
+
+
+
+                <-- Abaixo, a receptação das informações do bitcoin -->
+        
+                function btc(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    
+                fetch(url + coins)
+                .then(function(response){
+                    return response.json()
+                })
+                    .then(function(data){
+                        const dolarReal = data.USDBRL;
+                        const euroReal = data.EURBRL;
+                        const btcReal = data.BTCBRL;
+        
+                    
+        
+                        let estaData = new Date(btcReal.create_date);
+                        
+                        document.getElementById('title').innerHTML = btcReal.name;
+                        document.getElementById('thisdate').innerHTML = 'Data da consulta: ' + estaData.toLocaleString();
+                        document.getElementById('maxvalue').innerHTML = 'Valor máximo: ' + parseFloat(btcReal.high).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('minvalue').innerHTML = 'Valor mínimo: ' + parseFloat(btcReal.low).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+                        document.getElementById('conversaodol').style.display = "none";
+                        document.getElementById('conversaoeur').style.display = "none";
+                        document.getElementById('conversaobtc').style.display = "block";
+                    })
+                }
+
+
+
+                <-- Abaixo, o cálculo de valores -->
+        
+                function calculaBtc(){
+                    const url = 'https://economia.awesomeapi.com.br/last/';
+                    const coins = 'USD-BRL,EUR-BRL,BTC-BRL';
+                    let val = document.getElementById('convertbtc').value;
+                    
+                    fetch(url + coins)
+                    .then(function(response){
+                        return response.json()
+                    })
+                        .then(function(data){
+                            const btcReal = data.BTCBRL;
+                            
+                            document.getElementById('resultadobtc').innerHTML = (btcReal.high) * val;
+        
+                        })
+                }
+        
+                confbtc.addEventListener("click", () => {
+        
+                calculaBtc();
+        
+                });</code></pre>
+            </div>
+        </div> 

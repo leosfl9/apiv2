@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 52534,
+    "articles": [
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Will Shanklin",
+            "title": "Reason's popular DAW finally gets native Apple Silicon support",
+            "description": "Reason Studios (formerly Propellerhead) announced today that Reason, its popular digital audio workstation and plugin suite, now natively runs on Apple M1 / M2 chips. After installing the new Reason 12.6 update, users can skip the slower speeds from Apple’s R…",
+            "url": "https://www.engadget.com/reasons-popular-daw-finally-gets-native-apple-silicon-support-164439189.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/62A_Zqks3P2f7JGN409tfA--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/fc2d6d90-e904-11ed-b7fd-73b68760a17b.cf.jpg",
+            "publishedAt": "2023-05-02T16:44:39Z",
+            "content": "Reason Studios (formerly Propellerhead) announced today that Reason, its popular digital audio workstation and plugin suite, now natively runs on Apple M1 / M2 chips. After installing the new Reason … [+1701 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "House lawmakers ask for investigation into Apple store labor practices",
+            "description": "Apple is facing additional scrutiny over its alleged crackdown against pro-union retail workers. House Representatives Emanuel Cleaver and Sylvia Garcia have sent a letter to the National Labor Relations Board (NLRB) asking for an investigation into alleged l…",
+            "url": "https://www.engadget.com/house-lawmakers-ask-for-investigation-into-apple-store-labor-practices-195248699.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/weGd5hVpNQ62iwyl.dAlwg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/6fd025a0-eaac-11ed-bbef-77c579fca6b6.cf.jpg",
+            "publishedAt": "2023-05-04T19:52:48Z",
+            "content": "Apple is facing additional scrutiny over its alleged crackdown against pro-union retail workers. House Representatives Emanuel Cleaver and Sylvia Garcia have sent a letter to the National Labor Relat… [+1666 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Apple Watch Series 9 may finally get a new processor",
+            "description": "The Apple Watch has effectively used the same processor since the S6 inside 2020's Series 6, but it's apparently poised for a long-due upgrade. Bloomberg's Mark Gurman tells subscribers in his newsletter Discord channel that Apple Watch Series 9 will reported…",
+            "url": "https://www.engadget.com/apple-watch-series-9-may-finally-get-a-new-processor-151516259.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ovCEHeO.oc9YDmz.wbsKUQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/398c6da0-ee67-11ed-bfa7-872a4ff5351c.cf.jpg",
+            "publishedAt": "2023-05-09T15:15:16Z",
+            "content": "The Apple Watch has effectively used the same processor since the S6 inside 2020's Series 6, but it's apparently poised for a long-due upgrade. Bloomberg's Mark Gurman tells subscribers in his newsle… [+1330 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kris Holt",
+            "title": "Apple wins appeals court ruling against Epic Games",
+            "description": "An appeals court has issued a ruling in the long-running antitrust tussle between Apple\r\n and Epic Games\r\n. As Bloomberg\r\n reports, the US Ninth Circuit Court of Appeals upheld a lower court ruling, which rejected most of Epic's claims that Apple violated fed…",
+            "url": "https://www.engadget.com/apple-wins-appeals-court-ruling-against-epic-games-191331514.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/Zo7rEGj8L1mF0zydM0_qIQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2021-11/018296a0-4238-11ec-b79f-72319adfd299.cf.jpg",
+            "publishedAt": "2023-04-24T19:13:31Z",
+            "content": "An appeals court has issued a ruling in the long-running antitrust tussle between Apple\r\n and Epic Games\r\n. As Bloomberg\r\n reports, the US Ninth Circuit Court of Appeals upheld a lower court ruling, … [+3073 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kris Holt",
+            "title": "Apple and Google team up to tackle Bluetooth tracker stalking",
+            "description": "Apple and Google have announced a partnership to tackle the issue of unwanted tracking through the likes of AirTags and Tile devices. The companies have proposed industry standards \"to help combat the misuse of Bluetooth location-tracking devices for unwanted…",
+            "url": "https://www.engadget.com/apple-and-google-team-up-to-tackle-bluetooth-tracker-stalking-140516646.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/U7yMXE8bAksHmpB6IdXA.A--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-05/a6e1eeb0-cc4f-11ec-bef9-3ebebcb882f8.cf.jpg",
+            "publishedAt": "2023-05-02T14:05:16Z",
+            "content": "Apple and Google have announced a partnership to tackle the issue of unwanted tracking through the likes of AirTags and Tile devices. The companies have proposed industry standards \"to help combat th… [+3121 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Boone Ashworth",
+            "title": "Smartphone Sales Take a Tumble",
+            "description": "Plus: Amazon kills off its fitness wearables while Apple shores up its products' health-tracking capabilities.",
+            "url": "https://www.wired.com/story/smartphone-sales-slump-q1-2023/",
+            "urlToImage": "https://media.wired.com/photos/644c140aeb3f06fa8140cd44/191:100/w_1280,c_limit/Gear-News-This-Week-The-Smartphone-Market-Takes-a-Tumble-Gear-GettyImages-1358228612.png",
+            "publishedAt": "2023-04-29T13:00:00Z",
+            "content": "Surprise, surprise, smartphone sales are down again. According to the tech analyst firm IDC, phone sales have declined by nearly 15 percent year over year in the first quarter of 2023. This is a cont… [+3784 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Kate Knibbs",
+            "title": "With 'Silo,' Apple TV+ Strikes Prestige Sci-Fi Gold",
+            "description": "The long-gestating adaptation of Hugh Howey’s book series was worth the wait.",
+            "url": "https://www.wired.com/story/silo-apple-tv-plus-review/",
+            "urlToImage": "https://media.wired.com/photos/645a8d4893ba5cd8bbdc93d0/191:100/w_1280,c_limit/Silo-Review-Culture.jpg",
+            "publishedAt": "2023-05-10T13:00:00Z",
+            "content": "The first two episodes introduce viewers to the shows subterranean universe through the eyes of Sheriff Holston Becker (David Oyelowo) and his wife, Allison (Rashida Jones). Theyre happily living wit… [+3922 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Kate O'Flaherty",
+            "title": "Apple, Google, and Microsoft Just Fixed Zero-Day Security Flaws",
+            "description": "Firefox gets a needed tune-up, SolarWinds squashes two high-severity bugs, Oracle patches 433 vulnerabilities, and more updates you should make now.",
+            "url": "https://www.wired.com/story/apple-google-microsoft-zero-day-critical-update-april/",
+            "urlToImage": "https://media.wired.com/photos/644c708275bc0bfdef4f26d9/191:100/w_1280,c_limit/security-critical-update-may.jpg",
+            "publishedAt": "2023-04-30T11:00:00Z",
+            "content": "Tech giants Apple, Microsoft, and Google each fixed major security flaws in April, many of which were already being used in real-life attacks. Other firms to issue patches include privacy-focused bro… [+3954 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Emma Roth",
+            "title": "Apple TV 4K is getting multiview for sports streams",
+            "description": "Apple TV 4K is getting a new multiview feature that lets you watch multiple sports streams at once, according to a report from TechCrunch. The feature is available within the tvOS 16.5 beta.",
+            "url": "https://www.theverge.com/2023/4/14/23683917/apple-tv-4k-multiview-sports-baseball-soccer",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/834lDJ8VFp0l_soOCtZpxPYJC30=/0x0:750x500/1200x628/filters:focal(375x250:376x251)/cdn.vox-cdn.com/uploads/chorus_asset/file/24209128/DSCF0260_2.jpeg",
+            "publishedAt": "2023-04-14T21:55:07Z",
+            "content": "Apple TV 4K is getting multiview for sports streams\r\nApple TV 4K is getting multiview for sports streams\r\n / The feature will let you view up to four sports streams at once, according to TechCrunch.\r… [+2004 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Elizabeth Lopatto",
+            "title": "Should we trust Apple with mental health data?",
+            "description": "The planned expansion of Apple’s health efforts into mood tracking might be cause for concern. We already know some things from how the Apple Watch works, after all.",
+            "url": "https://www.theverge.com/23699287/apple-quartz-ai-mental-health-watch",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/H677yLcdetO3X15Cqi-RGvXVgvc=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23951261/VRG_Illo_N_Barclay_5_apple.jpg",
+            "publishedAt": "2023-04-26T18:09:27Z",
+            "content": "Should we trust Apple with mental health data?\r\nShould we trust Apple with mental health data?\r\n / Lets speculate together about Apples mental health push.\r\nHere are some cursed words: Apple Plans AI… [+6936 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "Apple drops lawsuit against former exec who accused company of spying",
+            "description": "After more than three years of litigation, Apple has quietly dropped its lawsuit against Gerard Williams III, the former chip executive the company accused of poaching employees. Williams spent nearly a decade\r\n working for Apple, leading development on some …",
+            "url": "https://www.engadget.com/apple-drops-lawsuit-against-former-exec-who-accused-company-of-spying-211547595.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/oGyqYoynBAVZs55pRmJVRQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-04/99606930-e6cd-11ed-b15f-283e0fa88253.cf.jpg",
+            "publishedAt": "2023-04-29T21:15:47Z",
+            "content": "After more than three years of litigation, Apple has quietly dropped its lawsuit against Gerard Williams III, the former chip executive the company accused of poaching employees. Williams spent nearl… [+4006 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Emma Roth",
+            "title": "Apple Arcade launches 20 new games, including a new TMNT roguelike",
+            "description": "Apple Arcade is getting 20 new games, and that includes the exclusive launch of the TMNT Splintered Fate, a co-op roguelike.",
+            "url": "https://www.theverge.com/2023/5/4/23710913/apple-arcade-new-games-tmnt",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/VK0_y7zWu6g_m5sWV4wVzI4gk-s=/0x0:1960x1102/1200x628/filters:focal(980x551:981x552)/cdn.vox-cdn.com/uploads/chorus_asset/file/24632244/Apple_Arcade_new_games_hero.jpg",
+            "publishedAt": "2023-05-04T14:03:26Z",
+            "content": "Image: Apple\r\n\n \n\n Apple Arcade is getting 20 new games, and that includes the exclusive launch of a Teenage Mutant Ninja Turtle roguelike.\nThe game, called TMNT Splintered Fate, is a top-down co-op … [+1400 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Jess Weatherbed",
+            "title": "Ted Lasso star Hannah Waddingham to host Apple musical holiday special",
+            "description": "Hannah Waddingham will host the upcoming Apple TV Plus special Hannah Waddingham: Home for Christmas in front of a live audience later this year.",
+            "url": "https://www.theverge.com/2023/4/21/23692466/hannah-waddingham-ted-lasso-apple-musical-holiday-special",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/PS03c0sbeSdJesBf5fNQy-Be0_c=/848x547:5934x4546/1200x628/filters:focal(3589x2393:3590x2394)/cdn.vox-cdn.com/uploads/chorus_asset/file/24600499/1479140486.jpg",
+            "publishedAt": "2023-04-21T13:17:29Z",
+            "content": "Hannah Waddingham pictured performing onstage at the 2023 Olivier Awards. | Image: Jeff Spicer/Getty Images for SOLT\r\n\n \n\n Hannah Waddingham, the Emmy-winning actor best known for her role as Rebecca… [+1787 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mat Smith",
+            "title": "The Morning After: Apple and Google team up to combat Bluetooth tracker stalking",
+            "description": "Apple and Google have announced a partnership to tackle unwanted tracking through the likes of AirTags and Tile devices. The companies have proposed industry standards \"to help combat the misuse of Bluetooth location-tracking devices for unwanted tracking.\"Ap…",
+            "url": "https://www.engadget.com/the-morning-after-apple-and-google-team-up-to-combat-bluetooth-tracker-stalking-111557628.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/4vxnbwtnbuKDO4LHt5KsQA--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-02/94489620-abc7-11ed-b375-842957054bf1.cf.jpg",
+            "publishedAt": "2023-05-03T11:15:57Z",
+            "content": "Apple and Google have announced a partnership to tackle unwanted tracking through the likes of AirTags and Tile devices. The companies have proposed industry standards \"to help combat the misuse of B… [+3417 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Amy Skorheim",
+            "title": "The second-gen Apple Pencil returns to its lowest price ever",
+            "description": "The Apple Pencil has dropped back down to $89 at Amazon and Best Buy, which is a 31 percent savings over the usual $129 list price. It's the lowest the stylus has sold for since its debut, though we've seen it drop this low a few timesbefore. It's also on sal…",
+            "url": "https://www.engadget.com/the-second-gen-apple-pencil-returns-to-its-lowest-price-ever-163705136.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/GzH79yDoOxQuKr_0eSlhSg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-03/548fd670-a47e-11ec-b9ef-ef1d74d381f2.cf.jpg",
+            "publishedAt": "2023-05-01T16:37:05Z",
+            "content": "The Apple Pencil has dropped back down to $89 at Amazon and Best Buy, which is a 31 percent savings over the usual $129 list price. It's the lowest the stylus has sold for since its debut, though we'… [+1360 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Will Shanklin",
+            "title": "Latest Apple headset rumors say it’ll include VR workouts and sports",
+            "description": "Apple is reportedly readying a wide array of apps and services for its upcoming mixed reality headset, according toBloomberg’s Mark Gurman. The company appears to be moving forward with plans to announce its first VR / AR headset at its Worldwide Developers’ …",
+            "url": "https://www.engadget.com/latest-apple-headset-rumors-say-itll-include-vr-workouts-and-sports-192316389.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/p8m4hAcruwmCS64mu85RjQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-04/370e8300-de19-11ed-8df5-805de2a747af.cf.jpg",
+            "publishedAt": "2023-04-18T19:23:16Z",
+            "content": "Apple is reportedly readying a wide array of apps and services for its upcoming mixed reality headset, according toBloombergs Mark Gurman. The company appears to be moving forward with plans to annou… [+4241 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Apple is bringing Final Cut Pro and Logic Pro to iPad on May 23rd",
+            "description": "Apple finally has professional creative software to match the iPad Pro. The company is releasing both Final Cut Pro and Logic Pro for iPad on May 23rd. The two tablet apps now feature a touch-friendly interface and other iPad-specific improvements, such as Pe…",
+            "url": "https://www.engadget.com/apple-is-bringing-final-cut-pro-and-logic-pro-to-ipad-on-may-23rd-132957320.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/IXZoSs7FAtVXz0QemI7aDQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/e6beaac0-ee6b-11ed-9ffb-4d8283171e0e.cf.jpg",
+            "publishedAt": "2023-05-09T13:29:57Z",
+            "content": "Apple finally has professional creative software to match the iPad Pro. The company is releasing both Final Cut Pro and Logic Pro for iPad on May 23rd. The two tablet apps now feature a touch-friendl… [+1951 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Simon Hill",
+            "title": "How to Use the Apple Shortcuts App on iPhone, iPad, or Mac (2023)",
+            "description": "Make your life easier. With Apple’s app, you can trigger a series of automated tasks with a single tap or Siri voice command.",
+            "url": "https://www.wired.com/story/how-to-use-apple-shortcuts-app/",
+            "urlToImage": "https://media.wired.com/photos/644c39d9daed59ebbf460852/191:100/w_1280,c_limit/How-to-Use-Apple-Shortcuts-Gear.jpg",
+            "publishedAt": "2023-04-29T13:00:00Z",
+            "content": "You might have seen the Apple Shortcuts app installed on your iPhone, iPad, or Mac, but it might not be immediately clear what it is or how to use it. This app can streamline your routines and free u… [+2360 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lifehacker.com"
+            },
+            "author": "Jake Peterson",
+            "title": "You Can Finally Use Final Cut Pro and Logic Pro on Your iPad",
+            "description": "Every once in a while, Apple really surprises me. Today is one of those times: The company just announced is finally bringing Final Cut Pro and Logic Pro to the iPad, and with it, the tools to produce professional videos and music using a touch-screen device.…",
+            "url": "https://lifehacker.com/you-can-finally-use-final-cut-pro-and-logic-pro-on-your-1850418917",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/0ee8f44afbfa6844936829c893853a6b.jpg",
+            "publishedAt": "2023-05-09T19:00:00Z",
+            "content": "Every once in a while, Apple really surprises me. Today is one of those times: The company just announced is finally bringing Final Cut Pro and Logic Pro to the iPad, and with it, the tools to produc… [+5141 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Igor Bonifacic",
+            "title": "Developer logs suggest Apple’s long-rumored 15-inch MacBook Air could arrive soon",
+            "description": "Apple’s forthcoming 15-inch MacBook Air\r\n will feature a processor “on par” with the company’s current M2 chip. According to Bloomberg\r\n, Apple recently began testing the laptop to ensure its compatibility with third-party App Store apps, something the compan…",
+            "url": "https://www.engadget.com/developer-logs-suggest-apples-long-rumored-15-inch-macbook-air-could-arrive-soon-154131810.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/hLpCdikFYxx6bCnt3a9jgA--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-07/8f5b30d4-0318-11ed-9ffb-0933759ff154.cf.jpg",
+            "publishedAt": "2023-04-15T15:41:31Z",
+            "content": "Apples forthcoming 15-inch MacBook Air\r\n will feature a processor on par with the companys current M2 chip. According to Bloomberg\r\n, Apple recently began testing the laptop to ensure its compatibili… [+1089 chars]"
+        }
+    ]
+}
