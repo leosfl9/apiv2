@@ -69,9 +69,7 @@
         // chave da api (não pode ser compartilhada no github, utilizar chave própria obtida no site do ChatGPT)
 
 
-
-
-        // const OPENAI_API_KEY = "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";
+        const OPENAI_API_KEY = "";
 
 
 
@@ -80,6 +78,11 @@
         // função que consome os dados de resposta do chatgpt
 
         function SendQuestion() {
+        
+        if(OPENAI_API_KEY == ''){
+          alert("Insira chave da API no código (linha 72), pois a API do ChatGPT não pode ser compartilhada")
+        }
+
         var sQuestion = inputQuestion.value;
 
         fetch("https://api.openai.com/v1/completions", {
